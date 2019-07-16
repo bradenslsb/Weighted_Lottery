@@ -1,0 +1,78 @@
+import numpy as np
+
+weights_one = {
+    "red": 5,
+    "blue": 3,
+    "green": 2,
+}
+
+weights_two = {
+    "winning": 1,
+    "losing": 9,
+}
+
+def weighted_lottery(weights):
+    possible_outcomes = []
+
+    for (name, chance) in weights.items():
+        for color in range(chance):
+            possible_outcomes.append(name)
+            
+    
+    return np.random.choice(possible_outcomes)
+
+
+
+
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+print(weighted_lottery(weights_one))
+
+
+
+
+
+
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+print(weighted_lottery(weights_two))
+
